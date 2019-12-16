@@ -1,0 +1,55 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<strong>$TM_SELECTED_TEXT</strong>"
+        }
+    },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<em>$TM_SELECTED_TEXT</em>"
+        }
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<a target=\"_blank\" href=\"$TM_SELECTED_TEXT\">$TM_SELECTED_TEXT</a>"
+        }
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section>\r\t<div class=\"container\">\r\t\t<div class=\"row\">\r\t\t\t<div class=\"col-md-10 mx-auto\">\r\t\t\t\t$TM_SELECTED_TEXT$0\r\t\t\t</div>\r\t\t</div>\r\t</div>\r</section>\r"
+        }
+    },
+    {
+        "key": "ctrl+h",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section>\r\t<div class=\"container\">\r\t\t<div class=\"row\">\r\t\t\t<div class=\"col-md-5 mx-auto mr-md-0\">\r\t\t\t\t$TM_SELECTED_TEXT$0\r\t\t\t</div>\r\t\t\t<div class=\"col-md-5 mx-auto ml-md-0\">\r\t\t\t\t$0\r\t\t\t</div>\r\t\t</div>\r\t</div>\r</section>\r"
+        }
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section><div class=\"container-fluid bg-compatible\" style=\"background:url(assets/images/content/image$0);\" ><div class=\"col-sm-10 mx-auto pt-5 pb-5\"><div class=\"box-fluid\">$TM_SELECTED_TEXT</div></div></div> </section>\r"
+        }
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<div class=\"col-12 mx-auto align-text-center\"><img class=\"img-fluid mb-2\" data-aos=\"zoom-in\" data-aos-duration=\"600\" data-aos-delay=\"600\" src=\"assets/images/module_1/content/placeholder.png\"/>\r<figcaption class=\"pb-4\">$TM_SELECTED_TEXT</figcaption></div>"
+        }
+    }
+
+    
+]
+
