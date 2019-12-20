@@ -1370,11 +1370,3 @@
 	border: 2px solid var(--THEME_COLOR_MODULE_FOUR);
 }
 
-.modulo_1 .estudo-caso .estudo-caso-header {
-  border-color: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
-  color: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
-}
-
-.modulo_1 .estudo-caso .estudo-caso-body {
-	border-color: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
-}
