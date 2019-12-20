@@ -111,6 +111,22 @@
 	background: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
 }
 
+
+
+.split_button_rounded .split_button{
+	
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 0px;
+	cursor: pointer;
+	color: white;
+	background: var(--THEME_COLOR_MODULE_ONE_STRONG);
+	margin-bottom: 5px;
+	line-height: 18px;
+}
+
+
 .modulo_1 .split_text_box {
 	background: var(--INVISIBLE);
 	border: 3pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
