@@ -1743,7 +1743,8 @@ a.nav-link{
 /* ESTUDO DE CASOS */
 
 .estudo-caso .estudo-caso-header {
-	float: right;
+  float: right;
+  color: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
 	border: 2pt solid var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
