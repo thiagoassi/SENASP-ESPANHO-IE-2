@@ -1744,7 +1744,7 @@ a.nav-link{
 
 .estudo-caso .estudo-caso-header {
 	float: right;
-	border: 2pt solid;
+	border: 2pt solid var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom: none;
@@ -1758,7 +1758,7 @@ a.nav-link{
 
 
 .estudo-caso .estudo-caso-body {
-	border: 2pt solid;
+	border: 2pt solid var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
   padding: 25px 50px 25px 50px;
   margin-top: 40px;
 }
