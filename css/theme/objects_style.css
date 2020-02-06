@@ -1395,7 +1395,7 @@ ul.sl-bullet li::before {
 @media (max-width: 767px) {
     .split_button {
         height: 100px;
-        width: 100px;
+        width: 100%;
     }
     .split_text_box {
         padding: 5px !important;
