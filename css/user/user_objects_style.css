@@ -93,7 +93,7 @@
 }
 
 .modulo_1 .pin-marker {
-  background-image: url(../../assets/images/module_1/resources/marcador.png);
+  /* background-image: url(../../assets/images/module_1/resources/marcador.png); */
   background-repeat: no-repeat;
   background-position: center;
   width: 30px;
