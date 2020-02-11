@@ -215,7 +215,7 @@ figcaption {
 .modulo_3 h1,
 .modulo_4 h1 {
   width: 100%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
   background-size: 100% 4px;
   background-repeat: no-repeat;
