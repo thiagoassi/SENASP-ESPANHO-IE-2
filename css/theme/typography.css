@@ -210,12 +210,13 @@ figcaption {
   );
 }
 
+/* NOVO */
 .modulo_1 h1,
 .modulo_2 h1,
 .modulo_3 h1,
 .modulo_4 h1 {
   width: 100%;
-  text-transform: uppercase;
+  text-transform: normal;
   font-weight: 600;
   background-size: 100% 4px;
   background-repeat: no-repeat;
@@ -224,6 +225,7 @@ figcaption {
   margin-top: 1.75rem;
   font-size: 25pt;
   padding-bottom: 10px;
+  /* text-transform: uppercase; */
 }
 
 /*  H2  */
@@ -302,6 +304,7 @@ figcaption {
   );
 }
 
+/* NOVO */
 .modulo_1 h3,
 .modulo_2 h3,
 .modulo_3 h3,
@@ -312,6 +315,7 @@ figcaption {
   padding-left: 0;
   font-weight: bold;
   font-size: 18pt;
+  margin-top: 60px;
 }
 
 /*  H4  */
