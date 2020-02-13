@@ -1,7 +1,7 @@
 /* ACCORDION START */
 
 .card-header {
-    background: var(--THEME_COLOR_PRIMARY);
+    background: var(--THEME_COLOR_PRIMARY_STRONG);
     border-color: var(--THEME_COLOR_AUX);
     background-image: url(../../assets/images/identity/resources/arrow-black-down.png);
     background-repeat: no-repeat;
@@ -288,7 +288,7 @@
     height: auto;
     border-left: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
     border-right: 8px solid var(--THEME_COLOR_MODULE_ONE_STRONG);
-    background: #e3d6d6;
+    background: #e8ecee;
     padding: 25px 50px 25px 50px;
     margin-bottom: 30px;
 }
@@ -1861,6 +1861,13 @@ a.nav-link {
     padding: 25px 50px 25px 50px;
     margin-top: 40px;
 }
+
+.estudo-caso .estudo-caso-body p {
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    color: rgb(105, 105, 105);
+}
+
 
 .modal-content {
     position: fixed !important;
