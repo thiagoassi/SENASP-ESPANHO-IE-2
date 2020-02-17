@@ -56,3 +56,8 @@ section {
   margin-top: 0;
 }
 
+/* NOVO */
+
+.tab-content p, .tab-content ul li, .tab-content ol li {
+	color: white !important;  
+  }
