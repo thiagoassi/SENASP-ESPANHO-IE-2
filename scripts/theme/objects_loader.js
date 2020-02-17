@@ -419,7 +419,7 @@ var refresh_objects_listeners = function () {
 
     // SPLIT CAROUSEL
     $.each($(".split_carousel"), function (index, element) {
-        let active_button;
+        let active_button = $(this).find(".active");
         let current = 0;
         let buttons = $(this).find(".split_button");
         let text_items = $(this).find(".text-item");
