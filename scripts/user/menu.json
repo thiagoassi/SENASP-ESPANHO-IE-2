@@ -1,8 +1,8 @@
 ﻿{
     "information": {
-        "modulo-numero": "MÓDULO 1",
-        "modulo-resumido": "M1",
-        "modulo-nome": "Cardápio Base"
+        "modulo-numero": "MÓDULO 4",
+        "modulo-resumido": "M4",
+        "modulo-nome": "ANÁLISE DO LOCAL DE CRIME"
     },
     "configuration": {
         "target": "#menu_item_list",
