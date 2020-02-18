@@ -608,6 +608,12 @@ table td {
     margin-left: 40%;
 }
 
+.jesus_slides_b {
+    white-space: nowrap;
+    display: inline-flex;
+    margin-left: 26%;
+}
+
 .jesus-set {
     height: 6em;
     width: 6em;
@@ -1867,7 +1873,6 @@ a.nav-link {
     font-size: 17px;
     color: rgb(105, 105, 105);
 }
-
 
 .modal-content {
     position: fixed !important;
