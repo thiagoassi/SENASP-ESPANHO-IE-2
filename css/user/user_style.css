@@ -79,3 +79,7 @@ section {
 	left: 0;
 	width: 100%;
   }
+
+  .tab-content p, .tab-content ul li, .tab-content ol li{
+	  color:white;
+  }
