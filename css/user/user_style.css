@@ -61,3 +61,23 @@ section {
 .tab-content p, .tab-content ul li, .tab-content ol li {
 	color: white !important;  
   }
+
+  /* NOVO */
+.aos-rw{
+	position: relative;
+	width: 100%;
+}
+
+/* NOVO */
+.aos-rm{
+	position: relative;
+	width: 290px;
+}
+
+/* NOVO */
+.aos-pa{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  }
