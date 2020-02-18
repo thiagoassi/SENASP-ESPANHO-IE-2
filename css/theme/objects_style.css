@@ -1456,6 +1456,11 @@ ul.sl-bullet li::before {
     padding: 20px;
 }
 
+.nav-item>a {
+    background-color: #e8ecee !important;
+    border-color: white !important;
+}
+
 .nav-item>a.active {
     background-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
     border-bottom-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
