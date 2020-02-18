@@ -1868,7 +1868,7 @@ a.nav-link {
     margin-top: 40px;
 }
 
-.estudo-caso .estudo-caso-body p {
+.estudo-caso .estudo-caso-body p, .estudo-caso .estudo-caso-body ul li, .estudo-caso .estudo-caso-body ol li {
     font-family: "Roboto Slab", serif;
     font-size: 17px;
     color: rgb(105, 105, 105);
