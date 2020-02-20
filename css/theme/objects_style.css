@@ -1863,14 +1863,16 @@ a.nav-link {
 
 .estudo-caso .estudo-caso-header {
     float: right;
-    color: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
+    font-family: "Roboto Slab", serif;
+    font-size: 21px;
     border: 2pt solid var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: none;
     padding: 15px;
+    color: var(--THEME_COLOR_MODULE_ONE_SUPER_LIGHT);
     padding-top: 10px;
-    margin-top: -38px;
+    margin-top: -40px;
     background: white;
     height: 42.5px;
 }

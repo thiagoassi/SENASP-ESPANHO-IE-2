@@ -72,3 +72,8 @@ section {
   left: 0;
   width: 100%;
 }
+
+.nav-item>a {
+  background-color: #e8ecee !important;
+  border-color: white !important;
+}
