@@ -343,6 +343,12 @@ figcaption {
   font-weight: 400;
 }
 
+/* NOVO */
+.modulo_1 h4 {
+  color: var(--THEME_COLOR_MODULE_ONE);
+  margin-top: 60px;
+}
+
 
 .modulo_1 .card h5,
 .modulo_2 .card h5,

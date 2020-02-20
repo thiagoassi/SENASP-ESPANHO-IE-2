@@ -68,3 +68,33 @@ section {
 -webkit-user-select: none; /* Chrome, Safari, and Opera */
 -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
+
+
+
+/* novo */
+.nav-item>a {
+  background-color: #e8ecee !important;
+  border-color: white !important;
+}
+
+
+/* NOVO */
+.aos-rw{
+	position: relative;
+	width: 100%;
+  }
+  .aos-rm{
+	position: relative;
+	width: 290px;
+  }
+  /* NOVO */
+  .aos-pa{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  }
+
+  .tab-content p, .tab-content ul li, .tab-content ol li{
+	  color:white;
+  }
