@@ -73,7 +73,14 @@ section {
   width: 100%;
 }
 
+/* NOVO */
 .nav-item>a {
   background-color: #e8ecee !important;
   border-color: white !important;
+}
+
+/* NOVO */
+.modulo_1 .flip-card-back {
+  border: 3pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
+  background: white;
 }
