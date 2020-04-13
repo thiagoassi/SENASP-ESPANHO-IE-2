@@ -1,18 +1,38 @@
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
-                <h1>Realizar la actividad</h1>
 
-                <p>Ahora que has completado el estudio del módulo, es importante practicar sus conocimientos. Para ello, responde a las preguntas del cuestionario con temas relacionados con el contenido estudiado.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <h1>Realizar la actividad</h1>
 
-                <p>Para acceder al cuestionario, haz clic en el botón de abajo: </p>
+            <p>Ahora que has completado el estudio del módulo, es importante practicar sus conocimientos. Para ello,
+                responde a las preguntas del cuestionario con temas relacionados con el contenido estudiado.</p>
 
-                <a class="btn-atividade" href="https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=41028" target="_blank">
-                    <img class="img-fluid d-block mx-auto" src="assets/images/identity/atividades-btn.png">
-                </a>
+            <p>Para acceder al cuestionario, haz clic en el botón de abajo:</p>
 
-            </div>
+            <!-- <a class="btn-atividade" href="https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=41018" target="_blank">
+                <img class="d-block mx-auto img-fluid" src="assets/images/identity/atividades-btn.png">
+            </a> -->
+
+            <img id="atividade" class="d-block img-fluid mx-auto pointer"
+                src="assets/images/identity/atividades-btn.png">
+
+
+
         </div>
     </div>
+</div>
 </section>
+
+
+
+
+
+
+
+<script>
+$(document).ready(function () {
+    $('#atividade').on('click', function () {
+        open('https://grupos.moodle.ufsc.br/mod/quiz/view.php?id=41028', '_blank');
+    });
+});
+</script>

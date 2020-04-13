@@ -3,18 +3,39 @@
 		<div class="row">
 			<div class="col-md-10 mx-auto">
 				<p>
-					Llegamos al final de este módulo. Haz clic en el botón de abajo para volver a la página principal del curso. 
+					Llegamos al final de este módulo. Haz clic en el botón de abajo para volver a la página principal
+					del curso.
 				</p>
-				<a href="https://grupos.moodle.ufsc.br/course/view.php?id=1168">
+				<!-- <a href="https://grupos.moodle.ufsc.br/course/view.php?id=1167">
 					<img
 						class="img-fluid d-block mx-auto"
 						src="assets/images/identity/volte_ao_curso_bt.png"
 					/>
-				</a>
+				</a> -->
+
+				<img id="atividade" class="d-block img-fluid mx-auto pointer"
+					src="assets/images/identity/volte_ao_curso_bt.png">
 			</div>
 		</div>
 	</div>
 </section>
+
+
+<script>
+	$(document).ready(function () {
+		$('#atividade').on('click', function () {
+			open('https://grupos.moodle.ufsc.br/course/view.php?id=1168', '_self');
+		});
+	});
+</script>
+
+
+
+
+
+
+
+
 <section>
 	<div class="container">
 		<div class="row">
