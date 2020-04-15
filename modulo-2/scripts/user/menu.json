@@ -2,7 +2,7 @@
   "information": {
     "modulo-numero": "MÓDULO 2",
     "modulo-resumido": "M2",
-    "modulo-nome": "INVESTIGAÇÃO DO CRIME DE ESTUPRO II: PERFIL DO CRIMINOSO E ANÁLISE VITIMOLÓGICA"
+    "modulo-nome": "INVESTIGACIÓN DE DELITOS DE VIOLACIÓN II: PERFIL DEL CRIMINAL Y ANÁLISIS VICTIMOLÓGICO"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -13,35 +13,35 @@
   },
   "pages": [
     {
-      "placeholder": "Apresentação",
+      "placeholder": "Presentación",
       "url": "pages/capitulo_0.html"
     },
     {
-      "placeholder": "Aula 1",
+      "placeholder": "Clase 1",
       "url": "pages/capitulo_1.html"
     },
     {
-      "placeholder": "Aula 2",
+      "placeholder": "Clase 2",
       "url": "pages/capitulo_2.html"
     },
     {
-      "placeholder": "Aula 3",
+      "placeholder": "Clase 3",
       "url": "pages/capitulo_3.html"
     },
     {
-      "placeholder": "Aula 4",
+      "placeholder": "Clase 4",
       "url": "pages/capitulo_4.html"
     },
     {
-      "placeholder": "Aula 5",
+      "placeholder": "Clase 5",
       "url": "pages/capitulo_5.html"
     },
     {
-      "placeholder": "Realize a atividade",
+      "placeholder": "Realizar la actividad",
       "url": "pages/capitulo_6.html"
     },
     {
-      "placeholder": "Referências",
+      "placeholder": "Referencias",
       "url": "pages/capitulo_7.html"
     }
   ]
