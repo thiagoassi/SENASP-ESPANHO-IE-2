@@ -587,6 +587,8 @@ var refresh_objects_listeners = function () {
         let text_items = $(this).find(".text-item");
         let jesus_head = $(this).find(".jesus-head");
         let item_width = $(this).find(".jesus-set").width();
+        let item_margin = $(this).find(".jesus-set").css("marginRight").replace('px', '')*2;
+        
 
         set_same_height_collection(text_items);
 
@@ -594,7 +596,7 @@ var refresh_objects_listeners = function () {
             let this_button = $(buttons[index]);
             this_button.on("click", function () {
                 let difference = current - index;
-                let margin_offset = parseInt(jesus_head.css("margin-left")) + (item_width * difference) + (32 * difference);
+                let margin_offset = parseInt(jesus_head.css("margin-left")) + (item_width * difference) + (item_margin * difference);
                 margin_offset += "px";
                 jesus_head.animate({
                     marginLeft: margin_offset

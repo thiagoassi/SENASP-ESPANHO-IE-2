@@ -477,7 +477,6 @@ table td {
     border-radius: 10px;
 }
 
-
 /* FLIP-CARD END */
 
 
@@ -621,6 +620,16 @@ table td {
 }
 
 
+@media only screen and (max-width: 767px) {
+    .flipster-set {
+        height: 160px;
+        width: 150px;
+    }
+    .flipster_slide{
+        width: 95% !important;
+    }
+}
+
 /* FLIPSTER FLAT END */
 
 
@@ -682,6 +691,7 @@ table td {
     /* Firefox */
     -ms-user-select: none;
     /* Internet Explorer/Edge */
+    margin: auto;
 }
 
 .arrow {
@@ -760,6 +770,15 @@ table td {
     width: 80%;
 }
 
+
+@media only screen and (max-width: 767px) {
+    .jesus-set {
+        height: 4em;
+        width: 4em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 
 /* JESUS SLIDERS END */
 
