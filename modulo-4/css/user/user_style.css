@@ -81,3 +81,26 @@ section {
 .tab-content ol li {
     color: white;
 }
+
+
+
+
+
+
+
+
+/* NOVO */
+
+.aos-rw{
+    position:relative; 
+    width: 100%; 
+  }
+  .aos-rm{
+    position:relative; 
+  }
+  .aos-pa{
+    position:absolute; 
+    width: 100%;   
+    top: 0; 
+    left:0;
+  }
